@@ -1,5 +1,5 @@
 CXX=clang++
-CXX_FLAGS=-std=c++20 -Iincludes -Wall -Wextra -Werror -O1 -gdwarf-4
+CXX_FLAGS=-std=c++20 -Iincludes -Wall -Wextra -Werror -O0 -gdwarf-4
 
 exec: bin/exec
 tests: bin/tests
